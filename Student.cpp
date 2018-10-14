@@ -1,5 +1,6 @@
 #include <string>
 #include "Student.h"
+#include "iostream"
 
 Student::Student(){
     fname = "";
@@ -47,6 +48,10 @@ std::string Student::get_city(){
 
 long Student::get_phone(){
     return phone;
+}
+
+void Student::SitInClass(){
+    std::cout<<"Sitting in main theater";
 }
 
 Student::~Student(){}

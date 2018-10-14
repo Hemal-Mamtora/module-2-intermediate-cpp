@@ -27,5 +27,7 @@ class Teacher {
         std::string get_city();
         long get_phone();
 
+        void GradeStudent();
+
         ~Teacher();
 };

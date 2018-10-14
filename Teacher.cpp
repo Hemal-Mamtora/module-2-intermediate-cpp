@@ -1,4 +1,5 @@
 #include <string>
+#include <iostream>
 #include "Teacher.h"
 
 Teacher::Teacher(){
@@ -49,4 +50,9 @@ long Teacher::get_phone(){
     return phone;
 }
 
+void Teacher::GradeStudent(){
+    std::cout<<"Student Graded";
+}
+
 Teacher::~Teacher(){}
+

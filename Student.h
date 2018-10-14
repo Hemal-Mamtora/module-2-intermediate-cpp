@@ -27,5 +27,7 @@ class Student {
         std::string get_city();
         long get_phone();
 
+        void SitInClass();
+
         ~Student();
 };
